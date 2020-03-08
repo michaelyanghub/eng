@@ -1,0 +1,41 @@
+.topic-panel {
+    padding: 10PX;
+    font   : 14PX;
+
+    .topic-panel-title {
+        background-color: #0288d1;
+        color           : #fff;
+        padding         : 5PX 0;
+        padding-left    : 10PX;
+        border-radius   : 4PX;
+    }
+
+    .topic-panel-list {
+        display        : flex;
+        flex-direction : row;
+        justify-content: space-between;
+        margin         : 10PX 0;
+
+        .topic-panel-list-img {
+            border-radius: 50%;
+            width        : 26PX;
+            height       : 26PX;
+            min-width    : 26PX;
+        }
+
+        .topic-panel-list-data {
+            color: #ccc;
+            white-space  : nowrap;
+            overflow     : hidden;
+        }
+
+        .topic-panel-list-title {
+            padding: 3PX 10PX 3PX 5PX;
+            white-space  : nowrap;
+            overflow     : hidden;
+            text-overflow: ellipsis;
+            width        : 50%;
+            color        : blue;
+        }
+    }
+}
